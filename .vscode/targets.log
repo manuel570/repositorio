@@ -1,0 +1,337 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Dec 21 13:26:16 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 5)
+SRC := src
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/Users/Usuario/Desktop/VSC_empty_project
+# default
+SHELL := sh.exe
+# makefile (from 'Makefile', line 4)
+BIN := bin
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"1a0efdb61e44124e1e10edd3da0bcd30.es","_translationsConfigFile":"C:\\Users\\Usuario\\AppData\\Roaming\\Code\\clp\\1a0efdb61e44124e1e10edd3da0bcd30.es\\tcf.json","_cacheRoot":"C:\\Users\\Usuario\\AppData\\Roaming\\Code\\clp\\1a0efdb61e44124e1e10edd3da0bcd30.es","_resolvedLanguagePackCoreLocation":"C:\\Users\\Usuario\\AppData\\Roaming\\Code\\clp\\1a0efdb61e44124e1e10edd3da0bcd30.es\\899d46d82c4c95423fb7e10e68eba52050e30ba3","_corruptedFile":"C:\\Users\\Usuario\\AppData\\Roaming\\Code\\clp\\1a0efdb61e44124e1e10edd3da0bcd30.es\\corrupted.info","_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+ONEDRIVE = C:\Users\Usuario\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+TMP = C:\Users\Usuario\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-9fea06cb-1ecf-4414-9241-a8d5b080e6f8-sock
+# environment
+VSCODE_CWD = C:\Users\Usuario\AppData\Local\Programs\Microsoft VS Code
+# environment
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\MinGW\bin;C:\msys64\mingw64\bin;C:\Program Files\Git\cmd;C:\Users\Usuario\AppData\Local\Microsoft\WindowsApps;C:\Dektop\win\bin;;C:\Users\Usuario\AppData\Local\Programs\Microsoft VS Code\bin
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\Usuario
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 2
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11784_PUUZVSRZBFELBHFI
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = PC15
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = Usuario
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Usuario\AppData\Roaming\Code\CachedData\899d46d82c4c95423fb7e10e68eba52050e30ba3
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\PC15
+# environment
+ONEDRIVECONSUMER = C:\Users\Usuario\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = PC15
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 2)
+CXX_FLAGS := -std=c++17 -ggdb
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 6)
+INCLUDE := include
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\Usuario\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\7373b878365f46084be1fe12ed465d1f-1.63.2-main-sock
+# environment
+HOMEPATH = \Users\Usuario
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\Usuario\AppData\Roaming
+# environment
+TEMP = C:\Users\Usuario\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 9)
+EXECUTABLE := main
+# makefile (from 'Makefile', line 1)
+CXX := g++
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 8)
+LIBRARIES := 
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 3c03
+# default
+.INCLUDE_DIRS = C:/MinGW/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+VSCODE_PID = 11784
+# environment
+USERDOMAIN_ROAMINGPROFILE = PC15
+# variable set hash-table stats:
+# Load=98/1024=10%, Rehash=0, Collisions=13/129=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# : could not be stat'd.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1602273113): 30 files, no impossibilities.
+# . (key c:/Users/Usuario/Desktop/VSC_empty_project, mtime 1634828638): 7 files, no impossibilities.
+# C:\Dektop\win\bin: could not be stat'd.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1638175137): 8 files, no impossibilities.
+# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1636360221): 129 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1632287973): 107 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1637760106): 171 files, no impossibilities.
+# src (key c:/Users/Usuario/Desktop/VSC_empty_project/src, mtime 1634828653): 3 files, no impossibilities.
+# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1637571194): 6 files, no impossibilities.
+# C:\msys64\mingw64\bin (key C:/msys64/mingw64/bin, mtime 1634555188): 207 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1640070817): 2851 files, no impossibilities.
+# C:\Users\Usuario\AppData\Local\Microsoft\WindowsApps (key C:/Users/Usuario/AppData/Local/Microsoft/WindowsApps, mtime 1639647552): 15 files, no impossibilities.
+# C:\Users\Usuario\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Usuario/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1639986650): 4 files, no impossibilities.
+
+# 3538 files, no impossibilities in 15 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: bin/main
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-09-25 12:48:29
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run: clean all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 15):
+	clear
+	./$(BIN)/$(EXECUTABLE)
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 22):
+	-rm $(BIN)/*
+
+# Not a target:
+src/main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-21 13:26:10
+#  File has been updated.
+#  Successfully updated.
+
+bin/main: src/main.cpp
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := bin/main
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := src/main.cpp
+# automatic
+# | := 
+# automatic
+# < := src/main.cpp
+# automatic
+# ^ := src/main.cpp
+# automatic
+# ? := src/main.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/17=12%
+#  recipe to execute (from 'Makefile', line 19):
+	$(CXX) $(CXX_FLAGS) -I$(INCLUDE) $^ -o $@ $(LIBRARIES)
+
+# files hash-table stats:
+# Load=8/1024=1%, Rehash=0, Collisions=0/26=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 7 (6) / strings = 3452 / storage = 51867 B / avg = 15 B
+# current buf: size = 8174 B / used = 2866 B / count = 181 / avg = 15 B
+# other used: total = 43693 B / count = 3271 / avg = 13 B
+# other free: total = 43 B / max = 14 B / min = 3 B / avg = 7 B
+
+# strcache performance: lookups = 3572 / hit rate = 3%
+# hash-table stats:
+# Load=3452/8192=42%, Rehash=0, Collisions=1172/3572=33%
+# Finished Make data base on Tue Dec 21 13:26:16 2021
+
+ 
